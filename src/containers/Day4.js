@@ -8,7 +8,6 @@ import { connect } from 'react-redux'
 import { removeItem, updateItem } from '../store/actions';
 
 const Row = (props) => {
-    console.log('Inside row', props);
     const EDIT_MODE = 'edit'
     const DISPLAY_MODE = 'display'
     const [mode, setMode] = useState(DISPLAY_MODE)
